@@ -9197,7 +9197,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9268,7 +9267,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="R5" gate="G$1" x="172.72" y="160.02"/>
 <instance part="R6" gate="G$1" x="165.1" y="152.4" rot="R90"/>
 <instance part="GND15" gate="1" x="165.1" y="142.24"/>
-<instance part="+3V9" gate="G$1" x="182.88" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -9330,12 +9328,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <junction x="132.08" y="66.04"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="177.8" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="160.02" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9565,6 +9557,13 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <wire x1="165.1" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="160.02" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <junction x="165.1" y="160.02"/>
+</segment>
+</net>
+<net name="BATT" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
+<label x="185.42" y="160.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
