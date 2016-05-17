@@ -9092,18 +9092,13 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="TP5" library="testpad" deviceset="PTR1" device="B1,27" value="GND"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="1u">
-<attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="GRM155R61E105KA12D"/>
-<attribute name="OC" value="846-7287"/>
-<attribute name="SITE" value="RS Components"/>
-</part>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
 <part name="IC3" library="SparkFun-RF" deviceset="BLUETOOTH-RN41" device="&quot;" value="RN-42">
 <attribute name="MF" value="Microchip"/>
 <attribute name="MPN" value="RN-42-I/RM"/>
@@ -9126,8 +9121,8 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <attribute name="OC" value="I-03982"/>
 <attribute name="SITE" value="Akizukidenshi"/>
 </part>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0402" value="1k"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="J1" library="Library" deviceset="ZX62R-B-5P" device="">
@@ -9142,48 +9137,23 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="IC4" library="maxim" deviceset="MAX1555" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="1u">
-<attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="GRM155R61E105KA12D"/>
-<attribute name="OC" value="846-7287"/>
-<attribute name="SITE" value="RS Components"/>
-</part>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0402" value="1u">
-<attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="GRM155R61E105KA12D"/>
-<attribute name="OC" value="846-7287"/>
-<attribute name="SITE" value="RS Components"/>
-</part>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0402" value="1u">
-<attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="GRM155R61E105KA12D"/>
-<attribute name="OC" value="846-7287"/>
-<attribute name="SITE" value="RS Components"/>
-</part>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="Status LED">
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="Charge LED">
 <attribute name="COLOR" value="Red"/>
 <attribute name="MF" value="OptoSupply"/>
 <attribute name="MPN" value="OSHR1608C1A"/>
 <attribute name="OC" value="I-03978"/>
 <attribute name="SITE" value="Akizukidenshi"/>
 </part>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0402" value="1k"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="IC5" library="Library" deviceset="NJM2866F33" device=""/>
 <part name="SW1" library="Library" deviceset="SK-12D01-VG4" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="1u">
-<attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="GRM155R61E105KA12D"/>
-<attribute name="OC" value="846-7287"/>
-<attribute name="SITE" value="RS Components"/>
-</part>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="1u">
-<attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="GRM155R61E105KA12D"/>
-<attribute name="OC" value="846-7287"/>
-<attribute name="SITE" value="RS Components"/>
-</part>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="con-molex" deviceset="53?-02" device="261">
@@ -9194,8 +9164,8 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="Library" deviceset="MPU-9250" device=""/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -9226,12 +9196,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="GND3" gate="1" x="106.68" y="78.74"/>
 <instance part="+3V5" gate="G$1" x="132.08" y="104.14"/>
 <instance part="GND4" gate="1" x="132.08" y="81.28"/>
-<instance part="C1" gate="G$1" x="132.08" y="93.98">
-<attribute name="MF" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="OC" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="SITE" x="132.08" y="93.98" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C1" gate="G$1" x="132.08" y="93.98"/>
 <instance part="IC3" gate="G$1" x="187.96" y="66.04">
 <attribute name="MF" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
@@ -9257,12 +9222,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="R2" gate="G$1" x="101.6" y="66.04"/>
 <instance part="R3" gate="G$1" x="101.6" y="53.34"/>
 <instance part="+3V7" gate="G$1" x="132.08" y="73.66"/>
-<instance part="C2" gate="G$1" x="139.7" y="93.98">
-<attribute name="MF" x="139.7" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="139.7" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="OC" x="139.7" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="SITE" x="139.7" y="93.98" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C2" gate="G$1" x="139.7" y="93.98"/>
 <instance part="IC2" gate="G$1" x="55.88" y="81.28"/>
 <instance part="R5" gate="G$1" x="172.72" y="160.02"/>
 <instance part="R6" gate="G$1" x="165.1" y="152.4" rot="R90"/>
@@ -9586,18 +9546,8 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="IC4" gate="G$1" x="104.14" y="119.38"/>
 <instance part="GND9" gate="1" x="73.66" y="101.6"/>
 <instance part="GND10" gate="1" x="132.08" y="101.6"/>
-<instance part="C3" gate="G$1" x="73.66" y="111.76">
-<attribute name="MF" x="73.66" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="73.66" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="OC" x="73.66" y="111.76" size="1.778" layer="96" display="off"/>
-<attribute name="SITE" x="73.66" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C4" gate="G$1" x="132.08" y="114.3">
-<attribute name="MF" x="132.08" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="132.08" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="OC" x="132.08" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="SITE" x="132.08" y="114.3" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C3" gate="G$1" x="73.66" y="111.76"/>
+<instance part="C4" gate="G$1" x="132.08" y="114.3"/>
 <instance part="LED3" gate="G$1" x="124.46" y="139.7" rot="R270">
 <attribute name="COLOR" x="119.888" y="131.826" size="1.778" layer="96" display="both"/>
 <attribute name="MF" x="124.46" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
@@ -9610,18 +9560,8 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="SW1" gate="G$1" x="81.28" y="63.5"/>
 <instance part="GND11" gate="1" x="99.06" y="43.18"/>
 <instance part="+3V8" gate="G$1" x="157.48" y="73.66"/>
-<instance part="C5" gate="G$1" x="91.44" y="55.88">
-<attribute name="MF" x="91.44" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="91.44" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="OC" x="91.44" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="SITE" x="91.44" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C6" gate="G$1" x="152.4" y="55.88">
-<attribute name="MF" x="152.4" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="152.4" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="OC" x="152.4" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="SITE" x="152.4" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="C5" gate="G$1" x="91.44" y="55.88"/>
+<instance part="C6" gate="G$1" x="152.4" y="55.88"/>
 <instance part="GND12" gate="1" x="91.44" y="43.18"/>
 <instance part="GND13" gate="1" x="152.4" y="43.18"/>
 <instance part="J2" gate="-1" x="210.82" y="111.76">
